@@ -18,5 +18,7 @@ public class Main {
 	}
 	
 	public static void sayGoodbye(String name) {
+		System.out.println(String.format("Goodbye %s!", name));
+	}
 	
 }
