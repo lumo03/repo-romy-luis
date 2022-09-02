@@ -6,4 +6,8 @@ public class Main {
 		System.out.println(greeting);
 	}
 	
+	public int generateRandomNumber() {
+		return (int) Math.random() * 1000;
+	}
+	
 }
