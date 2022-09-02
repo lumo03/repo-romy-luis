@@ -17,4 +17,6 @@ public class Main {
 		System.out.println(String.format("Hello %s!", name));
 	}
 	
+	public s
+	
 }
