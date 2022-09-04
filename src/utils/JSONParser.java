@@ -8,5 +8,7 @@ public class JSONParser {
 		objMapper = new ObjectMapper();
 	}
 	
-	public parseJSON
+	public parseToObject(String json) {
+		
+	}
 }
