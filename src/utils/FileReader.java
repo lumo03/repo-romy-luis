@@ -18,7 +18,8 @@ public class FileReader {
 			while (myReader.hasNextLine()) {
 				String data = myReader.nextLine();
 				if (data != null) {
-				fileContent += data + "\n";
+					fileContent += data + "\n";
+				}
 			}
 			myReader.close();
 		} catch (FileNotFoundException e) {
