@@ -27,7 +27,7 @@ public class GuessAnimal {
 		Question prevOfPrevQuestion = null;
 
 		while (currentQuestion != null) {
-			askQuestion(currenQuestion);
+			askQuestion(currentQuestion);
 			Answer res = askForInput();
 			System.out.println("Du hast die Antwort \"" + res.getResponseValue() + "\" ausgewählt.");
 
