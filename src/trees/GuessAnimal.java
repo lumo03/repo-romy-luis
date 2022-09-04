@@ -24,7 +24,7 @@ public class GuessAnimal {
 
     public static void main(String[] args) {
         GuessAnimal tr = new GuessAnimal();
-        tr.spiele();
+        tr.play();
     }
 }
 
