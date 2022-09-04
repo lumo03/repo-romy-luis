@@ -9,13 +9,8 @@
 		},
     	"no": {
 			"content": "Känguru",
-			"yes": {
-				"content": null,
-			}
-      "no": {
-				"content": null,
-			}
-		}
+			"yes": null,
+     	 "no": null
 	}
   "no": {
 		"content": "Ist es ein Papagei?",
