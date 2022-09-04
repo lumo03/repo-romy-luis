@@ -10,7 +10,8 @@ public class FileReader {
 	}
 	
 	public void readFile() {
-		File myObj = 
+		File myObj = file;
+		
 	}
 	
 	public File getFile() {
