@@ -42,7 +42,7 @@ public class GuessAnimal {
 }
 
 enum Answer {
-	YES("ja"), NO("nein");
+	YES("ja"), NO("nein")
 }
 class Question {
     String content;
