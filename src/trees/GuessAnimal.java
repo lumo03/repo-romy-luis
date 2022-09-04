@@ -7,14 +7,14 @@ public class GuessAnimal {
     Question root;
 
     public GuessAnimal() {
-        root = new Frage("Ist es ein Säugetier?");
-        root.yes = new Frage("Löwe");
-        root.no =new Frage( "Papagei");
+        root = new Question("Ist es ein Säugetier?");
+        root.yes = new Question("Löwe");
+        root.no =new Question( "Papagei");
     }
 
     public void play() {
         System.out.println("Willkommen beim Expertensystem");
-        Frage runner = root;
+        Question runner = root;
 
         // Schleife
         System.out.println(runner.inhalt);
