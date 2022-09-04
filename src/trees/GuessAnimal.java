@@ -16,7 +16,7 @@ public class GuessAnimal {
 		System.out.println("Willkommen beim Expertensystem");
 		Question currentQuestion = root;
 		
-		FileReader
+		FileReader fileReaer
 
 		while (true) {
 			System.out.println(currentQuestion.content);
