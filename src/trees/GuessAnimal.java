@@ -15,10 +15,12 @@ public class GuessAnimal {
     public void play() {
         System.out.println("Willkommen beim Expertensystem");
         Question runner = root;
-
-        System.out.println(runner.content);
-        Answer res = askForInput();
-        System.out.println("Du hast die Antwort \""+ res.getResponseValue() +"\" ausgewählt.");
+        
+        while {
+	        System.out.println(runner.content);
+	        Answer res = askForInput();
+	        System.out.println("Du hast die Antwort \""+ res.getResponseValue() +"\" ausgewählt.");
+        }
     }
     
     public Answer askForInput() {
