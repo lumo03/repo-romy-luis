@@ -7,31 +7,31 @@
 			"yes": null,
 			"no": null
 		},
-    	"no": {
+		"no": {
 			"content": "Känguru",
 			"yes": null,
-     		 "no": null
-	 	}
+			"no": null
+		}
 	},
-  	"no": {
+	"no": {
 		"content": "Ist es ein Papagei?",
 		"yes": {
 			"content": "Papagei",
 			"yes": null,
-      		"no": null
+			"no": null
 		},
-    	"no": {
+		"no": {
 			"content": "Ist es eine Fliege?",
 			"yes": {
 				"content": "Fliege",
 				"yes": null,
-        		"no": null
+				"no": null
 			},
-      		"no": {
+			"no": {
 				"content": "Spinne",
 				"yes": null,
-        		"no": null
-	}
-	}
+				"no": null
+			}
+		}
 	}
 }
