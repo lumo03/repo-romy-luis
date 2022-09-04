@@ -6,5 +6,8 @@
 			content: "Löwe"
 			yes: 
 		}
+	},
+	no: {
+	
 	}
 }
