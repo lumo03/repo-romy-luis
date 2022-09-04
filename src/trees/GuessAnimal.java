@@ -78,7 +78,7 @@ public class GuessAnimal {
 		System.out.println("Denke dir eine Frage zu deinem Tier aus.");
 		System.out.println("Diese Frage muss ein neues Unterscheidungsmerkmal enthalten,");
 		System.out.println("muss für dein Tier mit \"ja\" beantwortet werden können");
-		System.out.println("und für das andere Tier" + ") mit \"nein\".");
+		System.out.println("und für das andere Tier (" + question.content + ") mit \"nein\".");
 		String newQuestionContent = input.nextLine();
 		System.out.println("Danke für deine Frage.");
 		return newQuestionContent;
