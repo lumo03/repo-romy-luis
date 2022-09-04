@@ -24,9 +24,7 @@
 			"content": "Ist es eine Fliege?",
 			"yes": {
 				"content": "Fliege",
-				"yes": {
-					"content": null,
-				}
+				"yes": null,
         "no": {
 					"content": null,
 				}
