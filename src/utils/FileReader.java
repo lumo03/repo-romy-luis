@@ -10,6 +10,7 @@ public class FileReader {
 
 	public FileReader(String filePath) {
 		this.file = new File(filePath);
+		fileContent = "";
 	}
 
 	public String readFile() {
