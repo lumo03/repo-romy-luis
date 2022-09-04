@@ -20,6 +20,8 @@ public class GuessAnimal {
         String response = input.nextLine();
 
     }
+    
+    public void 
 
     public static void main(String[] args) {
         GuessAnimal tr = new GuessAnimal();
