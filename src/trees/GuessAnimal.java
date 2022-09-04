@@ -3,7 +3,7 @@ package trees;
 import java.util.Scanner;
 
 public class GuessAnimal {
-    Scanner eingabe = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
     Question root;
 
     public GuessAnimal() {
@@ -17,7 +17,7 @@ public class GuessAnimal {
         Question runner = root;
 
         System.out.println(runner.content);
-        String repsonse = input.nextLine();
+        String response = input.nextLine();
 
     }
 
