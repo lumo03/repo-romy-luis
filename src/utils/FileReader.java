@@ -21,7 +21,7 @@ public class FileReader {
 		}
 		myReader.close();
 		} catch (FileNotFoundException e) {
-			
+			System.out.println("An error")
 		}
 	}
 	
