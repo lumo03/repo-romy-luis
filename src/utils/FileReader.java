@@ -10,7 +10,7 @@ public class FileReader {
 	}
 	
 	public void readFile() {
-		Scanner myReader =n 
+		Scanner myReader = new Scanner()
 	}
 	
 	public File getFile() {
