@@ -21,7 +21,9 @@ public class GuessAnimal {
 
     }
     
-    public void askQuestion()
+    public void askQuestion(Question question) {
+    	System.out.println("");
+    }
 
     public static void main(String[] args) {
         GuessAnimal tr = new GuessAnimal();
