@@ -9,7 +9,9 @@ public class FileReader {
 		this.file = file;
 	}
 	
-	
+	public readFile() {
+		
+	}
 	
 	public File getFile() {
 		return file;
