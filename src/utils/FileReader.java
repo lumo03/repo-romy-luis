@@ -35,5 +35,7 @@ public class FileReader {
 		this.file = file;
 	}
 	
-	public S
+	public String getFileContent() {
+		return fileContent;
+	}
 }
