@@ -25,13 +25,13 @@
 			"yes": {
 				"content": "Fliege",
 				"yes": null,
-        		"no": null,
+        		"no": null
 			},
       		"no": {
 				"content": "Spinne",
 				"yes": {
-					"content": null,
-				}
+					"content": null
+			},
         "no": {
 					"content": null,
 				}
