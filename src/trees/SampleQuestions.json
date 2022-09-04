@@ -4,12 +4,7 @@
 		"content": "Läuft es auf vier Beinen?",
 		"yes": {
 			"content": "Löwe",
-			"yes": {
-				"content": null,
-			},
-      "no": {
-				"content": null,
-			}
+			"yes": null
 		}
     "no": {
 			"content": "Känguru",
