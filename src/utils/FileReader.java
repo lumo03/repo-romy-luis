@@ -1,6 +1,7 @@
 package utils;
 
 import java.io.File;
+import java.util.Scanner;
 
 public class FileReader {
 	private File file;
@@ -10,7 +11,8 @@ public class FileReader {
 	}
 	
 	public void readFile() {
-		Scanner myReader = new Scanner()
+		Scanner myReader = new Scanner(file);
+		
 	}
 	
 	public File getFile() {
