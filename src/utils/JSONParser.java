@@ -30,6 +30,6 @@ public class JSONParser {
 			e.printStackTrace();
 		}
 		
-		return ;
+		return Optional.ofNullable(out);
 	}
 }
