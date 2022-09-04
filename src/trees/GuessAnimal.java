@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class GuessAnimal {
     Scanner eingabe = new Scanner(System.in);
-    Frage wurzel;
+    Question root;
 
     public GuessAnimal() {
-        wurzel = new Frage("Ist es ein Säugetier?");
-        wurzel.ja = new Frage("Löwe");
-        wurzel.nein =new Frage( "Papagei");
+        root = new Frage("Ist es ein Säugetier?");
+        root.ja = new Frage("Löwe");
+        root.nein =new Frage( "Papagei");
     }
 
     public void play() {
         System.out.println("Willkommen beim Expertensystem");
-        Frage runner = wurzel;
+        Frage runner = root;
 
         // Schleife
         System.out.println(runner.inhalt);
