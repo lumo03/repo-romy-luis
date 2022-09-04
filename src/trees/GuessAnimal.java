@@ -68,7 +68,7 @@ public class GuessAnimal {
 
 	public Answer askForInput() {
 		String response = "";
-		Boolean isFirstAnswer = true;
+		Boolean isNotFirstAnswer = false;
 
 		do {
 			if (!)
