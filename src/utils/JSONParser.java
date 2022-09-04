@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import trees.Question;
 
-public class JSONParser {
+public class JSONParser<T> {
 	private ObjectMapper objMapper;
 	public JSONParser() {
 		objMapper = new ObjectMapper();
