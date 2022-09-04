@@ -1,4 +1,4 @@
 {
-	"Ist es ein Säugetier?"
-	
+	content: "Ist es ein Säugetier?"
+	yes: 
 }
