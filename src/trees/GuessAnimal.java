@@ -22,7 +22,7 @@ public class GuessAnimal {
     }
     
     public void askQuestion(Question question) {
-    	System.out.println(question.content +" (0 )");
+    	System.out.println(question.content +" (')");
     }
 
     public static void main(String[] args) {
