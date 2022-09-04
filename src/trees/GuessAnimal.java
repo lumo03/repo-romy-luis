@@ -50,7 +50,9 @@ enum Answer {
 		this.resValue = resValue;
 	}
 	
-	getResponseValue()
+	getResponseValue() {
+		return resValue;
+	}
 }
 class Question {
     String content;
