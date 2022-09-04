@@ -20,7 +20,7 @@ public class GuessAnimal {
 	        System.out.println(currentQuestion.content);
 	        Answer res = askForInput();
 	        System.out.println("Du hast die Antwort \""+ res.getResponseValue() +"\" ausgewählt.");
-	        currentQuestion = res == .YES ? r
+	        currentQuestion = res == .YES ? currentQuestion.yes : currentQuestion.no;
         }
     }
     
