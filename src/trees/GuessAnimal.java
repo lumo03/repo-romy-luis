@@ -29,7 +29,7 @@ public class GuessAnimal {
     	String response = "";
     	
     	do {
-    		
+    		System.out.println("Gültige Antworten sind nur \"ja\" oder \"\");
     		response = input.nextLine();
     	} while(
     			!response.toLowerCase().equals("ja") && 
