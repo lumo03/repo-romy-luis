@@ -39,7 +39,7 @@ public class GuessAnimal {
 				currentQuestion = followingQuestion;
 			} else {
 				if (res == Answer.YES) {
-					didGuess();
+					didGuessCo();
 				} else {
 					String animal = askForAnimal();
 					String questionContent = addNewQuestion(currentQuestion);
