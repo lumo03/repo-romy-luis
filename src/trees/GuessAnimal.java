@@ -43,7 +43,7 @@ public class GuessAnimal {
 				} else {
 					String animal = askForAnimal();
 					String questionContent = addNewQuestion(currentQuestion);
-					if (prevQuestion != null) {
+					if (prevOfPrevQuestion != null) {
 						prevOfPrevQuestion.no = new Question(questionContent);
 						prevOfPrevQuestion.no.yes = new Question(animal);
 						prevOfPrevQuestion.no.no = currentQuestion;
