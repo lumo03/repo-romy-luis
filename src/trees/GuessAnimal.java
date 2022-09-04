@@ -31,7 +31,7 @@ public class GuessAnimal {
     			!response.toLowerCase().equals("ja") && 
     			!response.toLowerCase().equals("nein")
     	);
-    	
+    	System.out.println(response);
     	return response == "ja" ? Answer.YES : Answer.NO;
     }
 
