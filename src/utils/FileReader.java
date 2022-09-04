@@ -13,13 +13,14 @@ public class FileReader {
 	}
 	
 	public void readFile() throws FileNotFoundException {
-		Scanner myReader = new Scanner(file);
+		try {
+			Scanner myReader = new Scanner(file);
+		}
 		while (myReader.hasNextLine() ) {
 			String data = myReader.nextLine();
 			fileContent += data;
 		}
 		myReader.close();
-		
 	}
 	
 	public File getFile() {
