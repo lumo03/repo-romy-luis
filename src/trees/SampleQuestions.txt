@@ -1,13 +1,4 @@
 {
-	content: "Ist es ein Säugetier?"
-	yes: {
-		content: "Läuft es auf vier Beinen?"
-		yes: {
-			content: "Löwe"
-			yes: 
-		}
-	},
-	no: {
-	
-	}
+	content: ""
+	yes: 
 }
