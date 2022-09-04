@@ -6,8 +6,10 @@ public class FileReader {
 	private File file;
 	
 	public FileReader(File file) {
-		
+		this.file = file;
 	}
+	
+	
 	
 	
 	public File getFile() {
