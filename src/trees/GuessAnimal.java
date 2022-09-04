@@ -27,8 +27,8 @@ public class GuessAnimal {
     
     public Question askForInput() {
     	String response = "";
-    	String[] allowedResponses = [""]
-     			input.nextLine();
+    	do 
+    		input.nextLine();
     }
 
     public static void main(String[] args) {
