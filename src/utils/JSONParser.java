@@ -21,7 +21,7 @@ public class JSONParser<T> {
 	public Optional<T> parseToObject(String json) {
 		T out = null;
 		try {
-			out = objMapper.readValue(json, T);
+			out = objMapper.readValue(json, classOfObject);
 		} catch (JsonParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
