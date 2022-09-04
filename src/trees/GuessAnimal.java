@@ -59,7 +59,7 @@ public class GuessAnimal {
 	}
 	
 	public void askQuestion(Question question) {
-		if ()
+		if (question.yes = null && q)
 		System.out.println(question.content);
 	}
 
