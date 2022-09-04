@@ -11,7 +11,6 @@ public class FileReader {
 	
 	
 	
-	
 	public File getFile() {
 		return file;
 	}
