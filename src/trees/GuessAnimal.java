@@ -42,6 +42,7 @@ public class GuessAnimal {
 }
 
 enum Answer(String) {
+	String res
 	YES("ja"), NO("nein")
 }
 class Question {
