@@ -12,8 +12,8 @@
 			"yes": null,
      		 "no": null
 	 	}
-	}
-  "no": {
+	},
+  	"no": {
 		"content": "Ist es ein Papagei?",
 		"yes": {
 			"content": "Papagei",
