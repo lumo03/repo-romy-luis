@@ -20,6 +20,8 @@ public class FileReader {
 			fileContent += data;
 		}
 		myReader.close();
+		} catch (FileNotFoundException e) {
+			
 		}
 	}
 	
