@@ -18,7 +18,7 @@ public class GuessAnimal {
 
         System.out.println(runner.content);
         Answer res = askForInput();
-        System.out.println("Du hast die Antwort \""+ res.getResponseValue()+"\" ausgewählt.");
+        System.out.println("Du hast die Antwort \""+ res.getResponseValue() +"\" ausgewählt.");
     }
     
     public Answer askForInput() {
