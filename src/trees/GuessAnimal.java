@@ -19,6 +19,8 @@ public class GuessAnimal {
 		Question currentQuestion = root;
 		
 		FileReader fileReader = new FileReader("/trees/SampleQuestions.json");
+		
+		String out = fileReader.readFile();
 
 		while (true) {
 			System.out.println(currentQuestion.content);
