@@ -46,11 +46,11 @@ enum Answer {
 	NO("nein");
 	String resValue;
 	
-	Answer(String resValue) {
+	public Answer(String resValue) {
 		this.resValue = resValue;
 	}
 	
-	getResponseValue() {
+	public String getResponseValue() {
 		return resValue;
 	}
 }
