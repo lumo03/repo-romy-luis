@@ -1,6 +1,7 @@
 package utils;
 
 import java.io.IOException;
+import java.util.Optional;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
@@ -14,10 +15,10 @@ public class JSONParser {
 		objMapper = new ObjectMapper();
 	}
 	
-	public Optional parseToObject(String json) {
+	public Optional<Question> parseToObject(String json) {
 		Question out = null;
 		try {
-			return objMapper.readValue(json, Question.class);
+			out = objMapper.readValue(json, Question.class);
 		} catch (JsonParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
