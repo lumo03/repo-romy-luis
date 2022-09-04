@@ -1,6 +1,6 @@
 package trees;
 
-class Question {
+public class Question {
 	String content;
 	Question yes, no;
 
