@@ -21,7 +21,7 @@ public class GuessAnimal {
         System.out.println("Du hast die Antwort \""+ res+"\" ausgewählt.");
     }
     
-    public String askForInput() {
+    public Answer askForInput() {
     	String response = "";
     	
     	do {
@@ -32,7 +32,7 @@ public class GuessAnimal {
     			!response.toLowerCase().equals("nein")
     	);
     	
-    	return response;
+    	return response == "ja" ? ;
     }
 
     public static void main(String[] args) {
