@@ -18,6 +18,7 @@ public class FileReader {
 			String data = myReader.nextLine();
 			fileContent += data;
 		}
+		
 	}
 	
 	public File getFile() {
