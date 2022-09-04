@@ -59,6 +59,7 @@ public class GuessAnimal {
 	}
 	
 	public void askQuestion(Question question) {
+		if ()
 		System.out.println(question.content);
 	}
 
