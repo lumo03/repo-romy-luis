@@ -17,7 +17,7 @@ public class GuessAnimal {
         Question runner = root;
 
         // Schleife
-        System.out.println(runner.inhalt);
+        System.out.println(runner.content);
         String antwort = eingabe.nextLine();
 
     }
@@ -29,10 +29,10 @@ public class GuessAnimal {
 }
 
 class Question {
-    String inhalt;
+    String content;
     Question yes, no;
 
-    public Question(String inhalt) {
-        this.inhalt = inhalt;
+    public Question(String content) {
+        this.content = content;
     }
 }
