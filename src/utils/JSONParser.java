@@ -11,7 +11,7 @@ import trees.Question;
 
 public class JSONParser<T> {
 	private ObjectMapper objMapper;
-	public JSONParser() {
+	public JSONParser(Class<T> class) {
 		objMapper = new ObjectMapper();
 	}
 	
