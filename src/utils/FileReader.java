@@ -13,7 +13,7 @@ public class FileReader {
 	public void readFile() {
 		Scanner myReader = new Scanner(file);
 		while (myReader.hasNextLine() ) {
-			
+			String data = 
 		}
 	}
 	
