@@ -17,7 +17,7 @@ public class FileReader {
 			Scanner myReader = new Scanner(file);
 			while (myReader.hasNextLine()) {
 				String data = myReader.nextLine();
-				if 
+				if (data != null) {
 				fileContent += data + "\n";
 			}
 			myReader.close();
