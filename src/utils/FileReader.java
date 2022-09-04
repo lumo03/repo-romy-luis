@@ -10,7 +10,7 @@ public class FileReader {
 
 	public FileReader(File file) {
 		this.file = file;
-		
+		readFile();
 	}
 
 	public void readFile() {
@@ -34,4 +34,6 @@ public class FileReader {
 	public void setFile(File file) {
 		this.file = file;
 	}
+	
+	public S
 }
