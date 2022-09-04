@@ -16,7 +16,7 @@ public class GuessAnimal {
         System.out.println("Willkommen beim Expertensystem");
         Question runner = root;
 
-        askQuestion(runner);
+        System.out.println("");
         
 
     }
