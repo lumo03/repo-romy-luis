@@ -30,7 +30,7 @@ public class GuessAnimal {
 
 class Question {
     String inhalt;
-    Frage yes, no;
+    Question yes, no;
 
     public Question(String inhalt) {
         this.inhalt = inhalt;
