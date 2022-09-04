@@ -6,8 +6,8 @@
 			"content": "Löwe",
 			"yes": null,
 			"no": null
-		}
-    "no": {
+		},
+    	"no": {
 			"content": "Känguru",
 			"yes": {
 				"content": null,
