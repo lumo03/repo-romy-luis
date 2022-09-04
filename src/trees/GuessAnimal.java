@@ -21,10 +21,6 @@ public class GuessAnimal {
 
     }
     
-    public void askQuestion(Question question) {
-    	System.out.println(question.content +" ('ja' oder 'nein')");
-    }
-    
     public String askForInput() {
     	String response = "";
     	
