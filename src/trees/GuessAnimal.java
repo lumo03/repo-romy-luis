@@ -21,7 +21,7 @@ public class GuessAnimal {
 	}
 
 	public void play() {
-		System.out.println("Willkommen beim Expertensystem");
+		System.out.println("Willkommen beim Expertensystem!");
 		Question currentQuestion = root;
 		Question prevQuestion = null;
 		Question prevOfPrevQuestion = null;
