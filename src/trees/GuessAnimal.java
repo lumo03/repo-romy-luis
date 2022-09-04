@@ -59,8 +59,11 @@ public class GuessAnimal {
 	}
 	
 	public void askQuestion(Question question) {
-		if (question.yes = null && q)
+		if (question.yes = null && question.no = null) {
 		System.out.println(question.content);
+		} else {
+			
+		}
 	}
 
 	public Answer askForInput() {
