@@ -46,7 +46,7 @@ enum Answer {
 	NO("nein");
 	String resValue;
 	
-	public Answer(String resValue) {
+	Answer(String resValue) {
 		this.resValue = resValue;
 	}
 	
