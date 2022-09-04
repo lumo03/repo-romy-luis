@@ -21,9 +21,9 @@
 			"no": null
 		},
 		"no": {
-			"content": "nein",
+			"content": "Ist es eine Fliege?",
 			"yes": {
-				"content": "enin",
+				"content": "Fliege",
 				"yes": null,
 				"no": null
 			},
