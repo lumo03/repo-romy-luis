@@ -16,7 +16,6 @@ public class GuessAnimal {
         System.out.println("Willkommen beim Expertensystem");
         Question runner = root;
 
-        // Schleife
         System.out.println(runner.content);
         String antwort = eingabe.nextLine();
 
