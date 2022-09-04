@@ -57,6 +57,8 @@ public class GuessAnimal {
 		sayGoodbye();
 		System.exit(0);
 	}
+	
+	public 
 
 	public Answer askForInput() {
 		String response = "";
