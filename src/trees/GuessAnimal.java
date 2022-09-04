@@ -9,7 +9,7 @@ public class GuessAnimal {
     public GuessAnimal() {
         root = new Frage("Ist es ein Säugetier?");
         root.yes = new Frage("Löwe");
-        root.nein =new Frage( "Papagei");
+        root.no =new Frage( "Papagei");
     }
 
     public void play() {
@@ -30,7 +30,7 @@ public class GuessAnimal {
 
 class Question {
     String inhalt;
-    Frage yes, nein;
+    Frage yes, no;
 
     public Question(String inhalt) {
         this.inhalt = inhalt;
