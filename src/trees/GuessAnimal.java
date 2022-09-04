@@ -17,7 +17,7 @@ public class GuessAnimal {
         Question runner = root;
 
         System.out.println(runner.content);
-        String antwort = eingabe.nextLine();
+        String repsonse = input.nextLine();
 
     }
 
