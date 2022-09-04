@@ -29,7 +29,7 @@ public class GuessAnimal {
     	String response = "";
     	do {
     		response = input.nextLine();
-    	} while(!response.equals("ja") && !response.equals("nein") )
+    	} while(!response.equals("ja") && !response.toLowerCase().equals("nein") )
     }
 
     public static void main(String[] args) {
