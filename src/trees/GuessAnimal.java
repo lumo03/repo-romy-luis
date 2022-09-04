@@ -21,7 +21,7 @@ public class GuessAnimal {
 
     }
     
-    public void 
+    public void askQuestion()
 
     public static void main(String[] args) {
         GuessAnimal tr = new GuessAnimal();
