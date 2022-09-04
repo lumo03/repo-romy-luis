@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Optional;
 
 import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
@@ -34,5 +35,16 @@ public class JSONParser<T> {
 		}
 		
 		return Optional.ofNullable(out);
+	}
+	
+	public Optional<String> parseToJSON(T object) {
+		String json = null;
+		try {
+			json = objMapper.writeValueAsString(object);
+		} catch (JsonProcessingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return Optional.ofNullable(json);
 	}
 }
