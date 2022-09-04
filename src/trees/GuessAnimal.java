@@ -28,11 +28,11 @@ public class GuessAnimal {
     }
 }
 
-class Frage {
+class Question {
     String inhalt;
     Frage ja, nein;
 
-    public Frage(String inhalt) {
+    public Question(String inhalt) {
         this.inhalt = inhalt;
     }
 }
