@@ -11,6 +11,6 @@ public class JSONParser {
 	}
 	
 	public Question parseToObject(String json) {
-		objMapper.readValue(json, Question.class);
+		return objMapper.readValue(json, Question.class);
 	}
 }
