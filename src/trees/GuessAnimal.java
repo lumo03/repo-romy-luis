@@ -68,9 +68,10 @@ public class GuessAnimal {
 
 	public Answer askForInput() {
 		String response = "";
-		Boolean is
+		Boolean isFirstAnswer = true;
 
 		do {
+			
 			System.out.println("Gültige Antworten sind nur \"ja\" oder \"nein\"!");
 			response = input.nextLine();
 		} while (!response.toLowerCase().equals("ja") && !response.toLowerCase().equals("nein"));
