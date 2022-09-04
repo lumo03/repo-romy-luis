@@ -33,7 +33,7 @@ public class GuessAnimal {
     	} while(
     			!response.toLowerCase().equals("ja") && 
     			!response.toLowerCase().equals("nein")
-    			);
+    	);
     	
     	return response;
     }
