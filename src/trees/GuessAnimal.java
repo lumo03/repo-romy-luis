@@ -57,10 +57,10 @@ public class GuessAnimal {
 		sayGoodbye();
 		System.exit(0);
 	}
-	
+
 	public void askQuestion(Question question) {
 		if (question.yes == null && question.no == null) {
-		System.out.println("Ist es ein(e) \""+question.content + "\"?");
+			System.out.println("Ist es ein(e) \"" + question.content + "\"?");
 		} else {
 			System.out.println(question.content);
 		}
