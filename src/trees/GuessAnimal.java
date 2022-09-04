@@ -58,8 +58,8 @@ public class GuessAnimal {
 		System.exit(0);
 	}
 	
-	public void askQuestion() {
-		
+	public void askQuestion(Question question) {
+		System.out.println(question.content);
 	}
 
 	public Answer askForInput() {
