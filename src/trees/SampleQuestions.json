@@ -25,9 +25,7 @@
 			"yes": {
 				"content": "Fliege",
 				"yes": null,
-        "no": {
-					"content": null,
-				}
+        		"no": null,
 			}
       "no": {
 				"content": "Spinne",
