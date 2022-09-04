@@ -1,4 +1,6 @@
 {
 	content: "Ist es ein Säugetier?"
-	yes: 
+	yes: {
+		content: "
+	}
 }
