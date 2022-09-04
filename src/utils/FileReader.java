@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class FileReader {
 	private File file;
+	private 
 	
 	public FileReader(File file) {
 		this.file = file;
