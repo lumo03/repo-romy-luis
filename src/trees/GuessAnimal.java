@@ -71,7 +71,7 @@ public class GuessAnimal {
 		Boolean isNotFirstAnswer = false;
 
 		do {
-			if (!)
+			if (!isNotfirstAnswer)
 			System.out.println("Gültige Antworten sind nur \"ja\" oder \"nein\"!");
 			response = input.nextLine();
 		} while (!response.toLowerCase().equals("ja") && !response.toLowerCase().equals("nein"));
