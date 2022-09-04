@@ -25,11 +25,13 @@ public class GuessAnimal {
     	System.out.println(question.content +" ('ja' oder 'nein')");
     }
     
-    public Question askForInput() {
+    public String askForInput() {
     	String response = "";
+    	
     	do {
     		response = input.nextLine();
     	} while(!response.toLowerCase().equals("ja") && !response.toLowerCase().equals("nein"));
+    	
     	return response;
     }
 
