@@ -49,6 +49,8 @@ enum Answer {
 	Answer(String resValue) {
 		this.resValue = resValue;
 	}
+	
+	getResponseValue()
 }
 class Question {
     String content;
