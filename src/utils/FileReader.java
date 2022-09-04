@@ -5,8 +5,8 @@ import java.io.File;
 public class FileReader {
 	private File file;
 	
-	public FileReader() {
-		// TODO Auto-generated constructor stub
+	public FileReader(File file) {
+		
 	}
 	
 	
