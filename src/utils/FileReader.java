@@ -8,7 +8,7 @@ public class FileReader {
 	private File file;
 	private String fileContent;
 
-	public FileReader(File file) {
+	public FileReader(String filePath) {
 		this.file = file;
 	}
 
