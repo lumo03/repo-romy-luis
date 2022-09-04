@@ -2,17 +2,17 @@ package trees;
 
 import java.util.Scanner;
 
-public class TiereRaten {
+public class GuessAnimal {
     Scanner eingabe = new Scanner(System.in);
     Frage wurzel;
 
-    public TiereRaten() {
+    public GuessAnimal() {
         wurzel = new Frage("Ist es ein Säugetier?");
         wurzel.ja = new Frage("Löwe");
         wurzel.nein =new Frage( "Papagei");
     }
 
-    public void spiele() {
+    public void play() {
         System.out.println("Willkommen beim Expertensystem");
         Frage runner = wurzel;
 
@@ -23,7 +23,7 @@ public class TiereRaten {
     }
 
     public static void main(String[] args) {
-        TiereRaten tr = new TiereRaten();
+        GuessAnimal tr = new GuessAnimal();
         tr.spiele();
     }
 }
