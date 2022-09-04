@@ -8,7 +8,7 @@ public class JSONParser {
 		objMapper = new ObjectMapper();
 	}
 	
-	public parseToObject(String json) {
+	public Question parseToObject(String json) {
 		
 	}
 }
