@@ -1,4 +1,4 @@
 {
-content: "yes",
-	yes: "no"
+	"content": "yes",
+	"yes": "no",
 }
