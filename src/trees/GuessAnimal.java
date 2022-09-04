@@ -32,7 +32,7 @@ public class GuessAnimal {
     			!response.toLowerCase().equals("nein")
     	);
     	
-    	return response;
+    	return "ja" 
     }
 
     public static void main(String[] args) {
