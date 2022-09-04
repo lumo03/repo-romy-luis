@@ -84,7 +84,7 @@ public class GuessAnimal {
 		return newQuestionContent;
 	}
 
-	public void didGuessCorrect() {
+	public void didGuessCorrectly() {
 		System.out.println("Gut, wir haben es erraten.");
 //		System.exit(1);
 	}
