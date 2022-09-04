@@ -32,7 +32,8 @@ public class GuessAnimal {
     		response = input.nextLine();
     	} while(
     			!response.toLowerCase().equals("ja") && 
-    			!response.toLowerCase().equals("nein"));
+    			!response.toLowerCase().equals("nein")
+    			);
     	
     	return response;
     }
