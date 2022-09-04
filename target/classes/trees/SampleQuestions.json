@@ -10,7 +10,8 @@
     	"no": {
 			"content": "Känguru",
 			"yes": null,
-     	 "no": null
+     		 "no": null
+	 	}
 	}
   "no": {
 		"content": "Ist es ein Papagei?",
