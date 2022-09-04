@@ -18,7 +18,7 @@
 		"yes": {
 			"content": "Papagei",
 			"yes": null,
-      		"no": null,
+      		"no": null
 		}
     "no": {
 			"content": "Ist es eine Fliege?",
