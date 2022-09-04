@@ -2,6 +2,8 @@
 	content: "Ist es ein Säugetier?"
 	yes: {
 		content: "Läuft es auf vier Beinen?"
-		y
+		yes: {
+			
+		}
 	}
 }
