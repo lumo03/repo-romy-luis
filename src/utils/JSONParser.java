@@ -15,7 +15,7 @@ public class JSONParser {
 	}
 	
 	public Question parseToObject(String json) {
-		
+		Question 
 		try {
 			return objMapper.readValue(json, Question.class);
 		} catch (JsonParseException e) {
