@@ -12,7 +12,7 @@ public class FileReader {
 		this.file = file;
 	}
 
-	public void readFile() {
+	public String readFile() {
 		try {
 			Scanner myReader = new Scanner(file);
 			while (myReader.hasNextLine()) {
@@ -33,9 +33,5 @@ public class FileReader {
 
 	public void setFile(File file) {
 		this.file = file;
-	}
-	
-	public String getFileContent() {
-		return fileContent;
 	}
 }
