@@ -25,7 +25,7 @@ public class GuessAnimal {
     	System.out.println(question.content +" ('ja' oder 'nein')");
     }
     
-    public 
+    public Question
 
     public static void main(String[] args) {
         GuessAnimal tr = new GuessAnimal();
