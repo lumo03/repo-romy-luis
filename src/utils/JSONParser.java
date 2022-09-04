@@ -15,6 +15,7 @@ public class JSONParser<T> {
 	
 	public JSONParser(Class<T> classOfObject) {
 		objMapper = new ObjectMapper();
+		this.classOfObject = classOfObject;
 	}
 	
 	public Optional<T> parseToObject(String json) {
