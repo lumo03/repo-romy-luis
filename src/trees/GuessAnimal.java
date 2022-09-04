@@ -17,11 +17,11 @@ public class GuessAnimal {
         Question runner = root;
 
         System.out.println(runner.content);
-        Answer res = askForInput();
+        String res = askForInput();
         System.out.println("Du hast die Antwort \""+ res+"\" ausgewählt.");
     }
     
-    public Answer askForInput() {
+    public String askForInput() {
     	String response = "";
     	
     	do {
@@ -32,7 +32,7 @@ public class GuessAnimal {
     			!response.toLowerCase().equals("nein")
     	);
     	
-    	return response == "ja" ? Answer.YES : Answer.NO;
+    	return response;
     }
 
     public static void main(String[] args) {
