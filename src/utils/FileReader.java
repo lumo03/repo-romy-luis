@@ -1,6 +1,7 @@
 package utils;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class FileReader {
@@ -10,7 +11,7 @@ public class FileReader {
 		this.file = file;
 	}
 	
-	public void readFile() {
+	public void readFile() throws FileNotFoundException {
 		Scanner myReader = new Scanner(file);
 		while (myReader.hasNextLine() ) {
 			String data = myReader.nextLine();
