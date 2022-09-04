@@ -9,7 +9,7 @@ import utils.JSONParser;
 
 public class GuessAnimal {
 	Scanner input = new Scanner(System.in);
-	JSONParser<Question> parser = new JSONParser<Question>(Question.class);
+	JSONParser<Question> parser = new JSONParser<>(Question.class);
 	Question root;
 
 	public GuessAnimal() {
