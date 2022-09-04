@@ -68,7 +68,7 @@ public class GuessAnimal {
 
 	public Answer askForInput() {
 		String response = "";
-		
+		Boolean is
 
 		do {
 			System.out.println("Gültige Antworten sind nur \"ja\" oder \"nein\"!");
