@@ -1,4 +1,57 @@
 {
-	"content": "yes",
-	"yes": "no"
+  "content": "Ist es ein Säugetier?",
+  "yes": {
+    "content": "Läuft es auf vier Beinen?",
+    "yes": {
+      "content": "Löwe",
+      "yes": {
+        "content": null,
+      }
+      "no": {
+        "content": null,
+      }
+    }
+    "no": {
+      "content": "Känguru",
+      "yes": {
+        "content": null,
+      }
+      "no": {
+        "content": null,
+      }
+    }
+  }
+  "no": {
+    "content": "Ist es ein Papagei?",
+    "yes": {
+      "content": "Papagei",
+      "yes": {
+        "content": null,
+        }
+      "no": {
+        "content": null,
+      }
+    }
+    "no": {
+      "content": "Ist es eine Fliege?",
+      "yes": {
+        "content": "Fliege",
+        "yes": {
+          "content": null,
+        }
+        "no": {
+          "content": null,
+        }
+      }
+      "no": {
+        "content": "Spinne",
+        "yes": {
+          "content": null,
+        }
+        "no": {
+          "content": null,
+        }
+      }
+    }
+  }
 }
