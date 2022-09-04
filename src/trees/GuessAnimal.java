@@ -2,6 +2,8 @@ package trees;
 
 import java.util.Scanner;
 
+import utils.FileReader;
+
 public class GuessAnimal {
 	Scanner input = new Scanner(System.in);
 	Question root;
@@ -16,7 +18,7 @@ public class GuessAnimal {
 		System.out.println("Willkommen beim Expertensystem");
 		Question currentQuestion = root;
 		
-		FileReader fileReaer
+		FileReader fileReader = new FileReader(new File());
 
 		while (true) {
 			System.out.println(currentQuestion.content);
