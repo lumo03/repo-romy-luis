@@ -24,6 +24,7 @@ public class FileReader {
 			System.out.println("An error occurred.");
 			e.printStackTrace();
 		}
+		return fileContent;
 	}
 
 	public File getFile() {
