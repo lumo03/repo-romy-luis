@@ -10,8 +10,6 @@ public class FileReader {
 
 	public FileReader(File file) {
 		this.file = file;
-		readFile();
-		
 	}
 
 	public void readFile() {
