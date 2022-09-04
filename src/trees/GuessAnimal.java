@@ -18,7 +18,7 @@ public class GuessAnimal {
 		System.out.println("Willkommen beim Expertensystem");
 		Question currentQuestion = root;
 		
-		FileReader fileReader = new FileReader("/trees/SampleQuestions.json");
+		FileReader fileReader = new FileReader("src/trees/SampleQuestions.json");
 		
 		String out = fileReader.readFile();
 		System.out.println(out);
