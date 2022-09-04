@@ -42,12 +42,12 @@ public class GuessAnimal {
 }
 
 enum Answer(String) {
+	YES("ja"), NO("nein");
 	String resValue;
 	
 	Answer(String resValue) {
-		resValue = resValue;
+		this.resValue = resValue;
 	}
-	YES("ja"), NO("nein")
 }
 class Question {
     String content;
