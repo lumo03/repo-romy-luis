@@ -12,7 +12,7 @@ public class FileReader {
 	
 	public void readFile() {
 		Scanner myReader = new Scanner(file);
-		
+		while ()
 	}
 	
 	public File getFile() {
