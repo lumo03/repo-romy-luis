@@ -9,7 +9,7 @@ public class FileReader {
 	private String fileContent;
 
 	public FileReader(String filePath) {
-		this.file = file;
+		this.file = new File(filePath);
 	}
 
 	public String readFile() {
