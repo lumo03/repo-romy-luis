@@ -1,1 +1,1 @@
-"Ist es ein Säugetier?"<"Läuft es auf vier Beinen?">[]
+"Ist es ein Säugetier?"<"Läuft es auf vier Beinen?">["Känguru"]
