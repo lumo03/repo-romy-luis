@@ -10,9 +10,10 @@ public class FileReader {
 
 	public FileReader(File file) {
 		this.file = file;
+		
 	}
 
-	public void readFile() throws FileNotFoundException {
+	public void readFile() {
 		try {
 			Scanner myReader = new Scanner(file);
 			while (myReader.hasNextLine()) {
