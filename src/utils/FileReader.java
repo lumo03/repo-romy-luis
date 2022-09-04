@@ -11,7 +11,7 @@ public class FileReader {
 		this.file = file;
 	}
 	
-	public void readFile() throws FileNotFoundException {
+	public String readFile() throws FileNotFoundException {
 		Scanner myReader = new Scanner(file);
 		while (myReader.hasNextLine() ) {
 			String data = myReader.nextLine();
