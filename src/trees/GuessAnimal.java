@@ -41,6 +41,9 @@ public class GuessAnimal {
     }
 }
 
+enum Answer {
+	case 
+}
 class Question {
     String content;
     Question yes, no;
