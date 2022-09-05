@@ -3,6 +3,7 @@ package trees;
 import java.util.Optional;
 import java.util.Scanner;
 
+import io.github.cdimascio.dotenv.Dotenv;
 import utils.FileReader;
 import utils.FileWriter;
 import utils.JSONParser;
@@ -10,6 +11,7 @@ import utils.JSONParser;
 public class GuessAnimal {
 	Scanner input = new Scanner(System.in);
 	JSONParser<Question> parser = new JSONParser<>(Question.class);
+	Dotenv dotenv = Dotenv.load();
 	Question root;
 
 	public GuessAnimal() {
@@ -107,7 +109,7 @@ public class GuessAnimal {
 	}
 
 	public Question loadSampleQuestions() {
-		FileReader fileReader = new FileReader("src/trees/SampleQuestions.json");
+		FileReader fileReader = new FileReader(dotenv.get("FULL_QUESTIONS_JSON_PATH"));
 		String fileContent = fileReader.readFile();
 		Optional<Question> sampleTree = parser.parseToObject(fileContent);
 
@@ -122,7 +124,7 @@ public class GuessAnimal {
 		Optional<String> json = parser.parseToJSON(root);
 
 		if (json.isPresent()) {
-			FileWriter fileWriter = new FileWriter("src/trees/SampleQuestions.json", json.get());
+			FileWriter fileWriter = new FileWriter(dotenv.get("FULL_QUESTIONS_JSON_PATH"), json.get());
 			fileWriter.writeFile();
 		}
 	}
